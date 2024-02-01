@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7896B02817B58F00CA6167 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB7896AC2817B58F00CA6167 /* Main.cpp */; };
+		DB7896B52817BA2600CA6167 /* KeyProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB7896B42817BA2600CA6167 /* KeyProvider.cpp */; };
+		DB7896B72817BDE200CA6167 /* Vigenere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB7896B62817BDE200CA6167 /* Vigenere.cpp */; };
+		DB9D27FD281916C30025EC22 /* iVigenereStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB9D27FC281916C30025EC22 /* iVigenereStream.cpp */; };
+		DB9D2802281931750025EC22 /* VigenereForwardIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB9D2801281931750025EC22 /* VigenereForwardIterator.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB78969E2817B51A00CA6167 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB7896A02817B51A00CA6167 /* Midterm_DSP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Midterm_DSP; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7896AA2817B58F00CA6167 /* sample_3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_3.txt; sourceTree = "<group>"; };
+		DB7896AB2817B58F00CA6167 /* iVigenereStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iVigenereStream.h; sourceTree = "<group>"; };
+		DB7896AC2817B58F00CA6167 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		DB7896AD2817B58F00CA6167 /* sample_4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_4.txt; sourceTree = "<group>"; };
+		DB7896AE2817B58F00CA6167 /* VigenereForwardIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VigenereForwardIterator.h; sourceTree = "<group>"; };
+		DB7896B22817B59900CA6167 /* KeyProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyProvider.h; sourceTree = "<group>"; };
+		DB7896B32817B59900CA6167 /* Vigenere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vigenere.h; sourceTree = "<group>"; };
+		DB7896B42817BA2600CA6167 /* KeyProvider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KeyProvider.cpp; sourceTree = "<group>"; };
+		DB7896B62817BDE200CA6167 /* Vigenere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vigenere.cpp; sourceTree = "<group>"; };
+		DB9D27FC281916C30025EC22 /* iVigenereStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iVigenereStream.cpp; sourceTree = "<group>"; };
+		DB9D2801281931750025EC22 /* VigenereForwardIterator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VigenereForwardIterator.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB78969D2817B51A00CA6167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7896972817B51A00CA6167 = {
+			isa = PBXGroup;
+			children = (
+				DB7896A22817B51A00CA6167 /* Midterm_DSP */,
+				DB7896A12817B51A00CA6167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB7896A12817B51A00CA6167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB7896A02817B51A00CA6167 /* Midterm_DSP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB7896A22817B51A00CA6167 /* Midterm_DSP */ = {
+			isa = PBXGroup;
+			children = (
+				DB7896AB2817B58F00CA6167 /* iVigenereStream.h */,
+				DB9D27FC281916C30025EC22 /* iVigenereStream.cpp */,
+				DB7896AC2817B58F00CA6167 /* Main.cpp */,
+				DB7896AA2817B58F00CA6167 /* sample_3.txt */,
+				DB7896AD2817B58F00CA6167 /* sample_4.txt */,
+				DB7896AE2817B58F00CA6167 /* VigenereForwardIterator.h */,
+				DB9D2801281931750025EC22 /* VigenereForwardIterator.cpp */,
+				DB7896B22817B59900CA6167 /* KeyProvider.h */,
+				DB7896B42817BA2600CA6167 /* KeyProvider.cpp */,
+				DB7896B32817B59900CA6167 /* Vigenere.h */,
+				DB7896B62817BDE200CA6167 /* Vigenere.cpp */,
+			);
+			path = Midterm_DSP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB78969F2817B51A00CA6167 /* Midterm_DSP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7896A72817B51A00CA6167 /* Build configuration list for PBXNativeTarget "Midterm_DSP" */;
+			buildPhases = (
+				DB78969C2817B51A00CA6167 /* Sources */,
+				DB78969D2817B51A00CA6167 /* Frameworks */,
+				DB78969E2817B51A00CA6167 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Midterm_DSP;
+			productName = Midterm_DSP;
+			productReference = DB7896A02817B51A00CA6167 /* Midterm_DSP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB7896982817B51A00CA6167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DB78969F2817B51A00CA6167 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = DB78969B2817B51A00CA6167 /* Build configuration list for PBXProject "Midterm_DSP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB7896972817B51A00CA6167;
+			productRefGroup = DB7896A12817B51A00CA6167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB78969F2817B51A00CA6167 /* Midterm_DSP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB78969C2817B51A00CA6167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7896B52817BA2600CA6167 /* KeyProvider.cpp in Sources */,
+				DB7896B72817BDE200CA6167 /* Vigenere.cpp in Sources */,
+				DB9D27FD281916C30025EC22 /* iVigenereStream.cpp in Sources */,
+				DB7896B02817B58F00CA6167 /* Main.cpp in Sources */,
+				DB9D2802281931750025EC22 /* VigenereForwardIterator.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB7896A52817B51A00CA6167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DB7896A62817B51A00CA6167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DB7896A82817B51A00CA6167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB7896A92817B51A00CA6167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB78969B2817B51A00CA6167 /* Build configuration list for PBXProject "Midterm_DSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7896A52817B51A00CA6167 /* Debug */,
+				DB7896A62817B51A00CA6167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7896A72817B51A00CA6167 /* Build configuration list for PBXNativeTarget "Midterm_DSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7896A82817B51A00CA6167 /* Debug */,
+				DB7896A92817B51A00CA6167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB7896982817B51A00CA6167 /* Project object */;
+}
